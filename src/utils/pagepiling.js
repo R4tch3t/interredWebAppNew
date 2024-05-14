@@ -13,10 +13,10 @@ export function pagePiling() {
           if ($('#pagepiling').length > 0) {
             $('#pagepiling').pagepiling({
               menu: '#onePageMenu',
-              anchors: ['inicio', 'contratar', 'services', 'projects', 'skills', 'testimonial', 'contact'],
+              anchors: ['inicio', 'contratar', 'services', /*'projects', 'skills', 'testimonial',*/ 'contact'],
               navigation: {
                 'position': 'right',
-                'tooltips': ['Inicio', 'Contratar', 'Services', 'Projects', 'Testimonial', 'Contact']
+                'tooltips': ['Inicio', 'Contratar', 'Services', /*'Projects', 'Testimonial',*/ 'Contact']
               },
               afterRender: function () {
                 $('#pp-nav').addClass('custom');

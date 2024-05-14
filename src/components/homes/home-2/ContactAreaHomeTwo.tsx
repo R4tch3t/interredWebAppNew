@@ -26,7 +26,7 @@ const ContactAreaHomeTwo = () => {
             <div className="row">
               <div className="col-xl-12">
                 <div className="tp-contact-2__title-box text-center">
-                  <h4 className="tp-contact-2__title">Take a coffee & chat with me</h4>
+                  <h4 className="tp-contact-2__title">Contactanos en los siguientes medios: </h4>
                 </div>
                 <div className="tp-contact-2__top-info mb-80 d-flex align-items-center justify-content-center">
                   <div className="parallax-wrap">
@@ -39,9 +39,9 @@ const ContactAreaHomeTwo = () => {
                   </div>
                   <div className="parallax-wrap">
                     <div className="parallax-element">
-                      <a href="tel:+351810342440">
+                      <a href="tel:+527566882095">
                         <Image src={icon_2} alt="image-here" />
-                        <span>+(351) 810 342 440</span>
+                        <span>+(52) 756 688 2095</span>
                       </a>
                     </div>
                   </div>

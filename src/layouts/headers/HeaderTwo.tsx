@@ -123,19 +123,19 @@ const HeaderTwo = () => {
                         <a href="#contratar">Contratar</a>
                       </li>
                       <li data-menuanchor="services">
-                        <a href="#services">Services</a>
+                        <a href="#services">Servicios</a>
                       </li>
-                      <li data-menuanchor="projects">
-                        <a href="#projects">Projects</a>
+                      {/*<li data-menuanchor="projects">
+                        <a href="#projects">Proyectos</a>
                       </li>
                       <li data-menuanchor="skills">
                         <a href="#skills">Skills</a>
                       </li>
                       <li data-menuanchor="testimonial">
                         <a href="#testimonial">Testimonial</a>
-                      </li>
+                      </li>*/}
                       <li data-menuanchor="contact">
-                        <a href="#contact">Contact</a>
+                        <a href="#contact">Contacto</a>
                       </li>
 
 

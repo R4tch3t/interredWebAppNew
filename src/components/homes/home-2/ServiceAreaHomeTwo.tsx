@@ -20,30 +20,30 @@ const service_data: DataType[] = [
   {
     id: 1,
     accordion_id: "One",
-    bg_img: "/assets/img/faq/faq-4.jpg",
-    question: "Visual design",
-    ans: "Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase is where your business ideas and our creative vision come to life. Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase.",
+    bg_img: "/assets/img/faq/fibra-optica-img01.jpg",
+    question: "Instalación de fibra óptica",
+    ans: "Nos comprometemos a hacer una excelente instalación de fibra óptica hasta la puerta de su casa",
   },
   {
     id: 2,
     accordion_id: "Two",
-    bg_img: "/assets/img/faq/faq-1.jpg",
-    question: "Product design",
-    ans: "Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase is where your business ideas and our creative vision come to life. Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase.",
+    bg_img: "/assets/img/faq/modem-donde-ponerlo.jpg.webp",
+    question: "Instalación y activación de su modem",
+    ans: "Con buenas prácticas en el área de instalación y tendido de cableado, hacemos una buena instalación dentro de su hogar. Posterior a eso se realizá la activación de su modem.",
   },
   {
     id: 3,
     accordion_id: "Three",
-    bg_img: "/assets/img/faq/faq-2.jpg",
-    question: "UI kits / Design systems",
-    ans: "Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase is where your business ideas and our creative vision come to life. Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase.",
+    bg_img: "/assets/img/faq/Conexiones-Simétricas-y-Asimétricas.jpg",
+    question: "Velocidad simétrica",
+    ans: "Ya que diariamente se le da mantenimiento a la central de internet, la velocidad puede fluir sistemáticamente en paralelo ya sea de bajada y de subida.",
   },
   {
     id: 4,
     accordion_id: "Four",
-    bg_img: "/assets/img/faq/faq-3.jpg",
-    question: "Strategy",
-    ans: "Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase is where your business ideas and our creative vision come to life. Crafting well designed digital products is our superpower and we're not afraid to use it! The product design phase.",
+    bg_img: "/assets/img/faq/4GDPNFO3X5HKZC6KCFPXBWKTBQ.jpg.avif",
+    question: "Televisión",
+    ans: "Contamos con un paquete para TV por cable, de cientos de canales que usted podrá disfrutar.",
   },
 ]
 
@@ -51,8 +51,8 @@ const ServiceAreaHomeTwo = () => {
   const {handleMouseMove} = UseHoverReveal();
   return (
     <>
-      <div className="section">
-        <div className="tp-hero-2__bg black-bg-3 tp-hero-2__space-3 d-flex align-items-start justify-content-center z-index-1 p-relative fix">
+      <div className="section" >
+        <div  className="tp-hero-2__bg black-bg-3 tp-hero-2__space-3 d-flex align-items-start justify-content-center z-index-1 p-relative fix">
           <div className="tp-hero-distort-2" style={{ backgroundImage: 'url(/assets/img/hero/hero-2-overlay.png)' }}></div>
           <div className="tp-hero-2__circle-wrapper">
             <span className="tp-hero-2__circle-1"></span>
@@ -66,10 +66,10 @@ const ServiceAreaHomeTwo = () => {
           <div className="container">
             <div className="row">
               <div className="col-xl-12">
-                <div className="tp-hero-2__service-accordion">
+                <div style={{marginTop: -100}} className="tp-hero-2__service-accordion">
                   <span className="tp-hero-2__service-title">
                     <Image className="tp-zoom-in-out" src={service_start} alt="image-here" />
-                    OUR SERVICES
+                    NUESTROS SERVICIOS
                   </span>
 
                   <div className="accordion" id="accordionExample">
@@ -91,7 +91,7 @@ const ServiceAreaHomeTwo = () => {
                             </span>
                           </button>
                         </h2>
-                        <div className="tp-hover-reveal-bg" style={{ backgroundImage: `url(${item.bg_img})` }}></div>
+                        <div className="tp-hover-reveal-bg" style={{ backgroundImage: `url(${item.bg_img})`, borderRadius: 200, width: 200, height: 200 }}></div>
                         <div id={`collapse${item.accordion_id}`} className={`accordion-collapse collapse ${i === 0 ? "show" : ""}`}
                           data-bs-parent="#accordionExample">
                           <div className="accordion-body">

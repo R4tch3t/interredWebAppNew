@@ -45,14 +45,14 @@ const ContactFormHomeTwo = () => {
         <div className="row">
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="tp-contact-2__input">
-              <input className="input-field" type="text" placeholder="Your Name" {...register("name")} />
+              <input className="input-field" type="text" placeholder="Tu nombre" {...register("name")} />
               <span className="focus-border"></span>
             </div>
             <p className="form_error">{errors.name?.message}</p>
           </div>
           <div className="col-xl-4 col-lg-4 mb-50">
             <div className="tp-contact-2__input">
-              <input className="input-field" type="text" placeholder="Your Email" {...register("email")} />
+              <input className="input-field" type="text" placeholder="Correo" {...register("email")} />
               <span className="focus-border"></span>
             </div>
             <p className="form_error">{errors.email?.message}</p>
@@ -62,22 +62,22 @@ const ContactFormHomeTwo = () => {
               <NiceSelect
                 className="input-field"
                 options={[
-                  { value: "01", text: "Subject (optional)" },
-                  { value: "02", text: "Online Support" },
-                  { value: "03", text: "Live Security" },
-                  { value: "04", text: "Hack Protection" },
+                  { value: "01", text: "Tema de atención (opcional)" },
+                  { value: "02", text: "Soporte online" },
+                  { value: "03", text: "Reparación de fibra óptica" },
+                  { value: "04", text: "Problemas en la conexión" },
                 ]}
                 defaultCurrent={0}
                 onChange={selectHandler}
                 name=""
-                placeholder="" />
+                placeholder="Tema de atención (opcional)" />
 
               <span className="focus-border"></span>
             </div>
           </div>
           <div className="col-xl-12">
             <div className="tp-contact-2__textarea">
-              <textarea className="input-field" placeholder="Your message here..." {...register("message")}>
+              <textarea className="input-field" placeholder="Notas..." {...register("message")}>
               </textarea>
               <span className="focus-border"></span>
               <p className="form_error">{errors.message?.message}</p>
@@ -89,7 +89,7 @@ const ContactFormHomeTwo = () => {
                 <div className="parallax-element">
                   <button className="tp-btn-pink-large" type="submit">
                     <span data-hover="Send Message">
-                      Send Message
+                      Enviar mensaje
                     </span>
                   </button>
                 </div>

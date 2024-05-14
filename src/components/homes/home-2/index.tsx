@@ -28,9 +28,9 @@ useEffect(() => {
           <HeroAreaHomeTwo />
           <ContratarAreaHomeTwo />
           <ServiceAreaHomeTwo />
-          <TestimonialAreaHomeTwo />
+          {/*<TestimonialAreaHomeTwo />
           <ExperienceAreaHomeTwo />
-          <ClientAreaHomeTwo />
+          <ClientAreaHomeTwo />*/}
           <ContactAreaHomeTwo />
           <FooterTwo />
         </div>
