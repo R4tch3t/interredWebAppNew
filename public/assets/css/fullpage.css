@@ -8,6 +8,45 @@
  *
  * Copyright (C) 2021 http://alvarotrigo.com/fullPage - A project by Alvaro Trigo
  */
+
+ .imageFull{
+    position: relative;
+    bottom: 20px;
+    left: 0;
+    border-radius: 10px
+  }
+
+  
+
+  @media (min-width: 1200px) {
+    .offeredDesktop60{
+        position: relative;
+        left: 220px;
+        bottom: 20px
+      }
+      
+      .offeredDesktop100{
+        position: relative;
+        left: 440px;
+      }
+  }
+  @media (max-width: 770px) {
+    .imageMiddle{
+        margin-left: -60px;
+    }
+  }
+
+  @media (max-width: 1200px) {
+    .centerOffers{
+        flex: 1;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+  }
+
+
 html.fp-enabled,
 .fp-enabled body {
     margin: 0;

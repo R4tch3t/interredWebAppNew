@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import menu_data from './MenuData';
+import Router from 'next/router';
 
 
 const NavMenu = () => {
@@ -35,8 +36,13 @@ const NavMenu = () => {
             }
             {item.has_dropdown &&
               <ul className="tp-submenu submenu">
-                {item.sub_menus?.map((sub_menu, sub_index) => (
-                  <li key={sub_index}><Link href={sub_menu.link}>{sub_menu.title}</Link></li>
+                {item.sub_menus?.map( (sub_menu, sub_index) => (
+                  <li key={sub_index}> <button onClick={async ()=>{
+                    await Router.push('/')
+                    await Router.push(sub_menu.link)
+                    Router.reload()
+                    console.log('click}??')
+                  }} > {sub_menu.title} </button></li>
                 ))}
               </ul>
             }

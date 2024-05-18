@@ -25,10 +25,10 @@ const HeroAreaHomeTwo = () => {
                   <h3 className="tp-hero-title-2 text-center tp-char-animation" style={{textTransform: 'lowercase'}}>
                     interred
                     <br />
-                    <span className="stroke-text d-flex align-items-end justify-content-center">
+                    <span className="stroke-text d-flex align-items-end justify-content-center" style={{height: 36}}>
                       {/*<Image src={hero_img_1} alt="image-here" />*/}
-                      <span className="location-text d-flex align-items-end text-start d-none d-lg-flex">
-                        <span className="d-none d-md-block">Ubicados <i className="fa-sharp fa-solid fa-map"></i>
+                      <span className="location-text d-flex align-items-end text-start">
+                        <span className="">Ubicados <i className="fa-sharp fa-solid fa-map"></i>
                           <br /> en Calle del Campesino Sin Número Col. Emiliano Zapata</span>
                       </span>
                     </span>
@@ -40,11 +40,11 @@ const HeroAreaHomeTwo = () => {
 
             <div className="row">
               <div className="col-xl-12">
-                <div className="tp-hero-2__thumb-wrap p-relative text-center">
-                  <div className="tp-hero-2__thumb z-index-5">
-                    <div style={{flex: 1, flexDirection: 'column', textAlign: 'center', verticalAlign: 'center', width: '100%', height: 706, justifyContent: 'center', alignContent: 'center'}}>
+                <div className="tp-hero-2__thumb-wrap p-relative text-center" style={{marginTop: -225}} >
+                  <div className="z-index-5">
+                    <div style={{flex: 1, flexDirection: 'column', verticalAlign: 'center', width: '110%', height: 706, justifyContent: 'center', alignContent: 'flex-end'}}>
                       
-                        <Image src={hero_img_2} style={{position: 'absolute',bottom: 20, borderRadius: 10, right: 100}} alt="image-here" />
+                        <Image src={hero_img_2} className='imageFull imageMiddle' alt="image-here" />
                         {/*<div style={{position: 'absolute', bottom: 20, right: 100,borderRadius: 70, backgroundColor: 'black'}} >
                           <video width="933" height="436" autoPlay loop muted color='transparent' >
                               <source src="videos/INTERRED.mp4" type="video/mp4"/>

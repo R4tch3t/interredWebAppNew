@@ -25,19 +25,19 @@ const menu_data: DataType[] = [
   {
     id: 1,
     title: "Home",
-    link: "#",
+    link: "/#inicio",
     img_dropdown: true,
     sub_menus: [
-      { mobile_menu: false, link: "/", title: "Home 01", demo_img: demo_img_1, },
-      { mobile_menu: false, link: "/home-2", title: "Home 02", demo_img: demo_img_2, },
-      { mobile_menu: false, link: "/home-3", title: "Home 03", demo_img: demo_img_3, },
+      { mobile_menu: false, link: "/", title: "Home Interred", demo_img: demo_img_1, },
+      //{ mobile_menu: false, link: "/home-2", title: "Home 02", demo_img: demo_img_2, },
+      //{ mobile_menu: false, link: "/home-3", title: "Home 03", demo_img: demo_img_3, },
 
-      { mobile_menu: true, link: "/", title: "Freelancer"},
-      { mobile_menu: true, link: "/home-2", title: "Interface Designer"},
-      { mobile_menu: true, link: "/home-3", title: "Web Developer"},
+      { mobile_menu: true, link: "/", title: "Inicio"},
+      { mobile_menu: true, link: "/#contratar", title: "Contratar un servicio"},
+      //{ mobile_menu: true, link: "/home-3", title: "Web Developer"},
     ],
   },
-  {
+ /* {
     id: 2,
     title: "About Me",
     link: "/about",
@@ -75,11 +75,11 @@ const menu_data: DataType[] = [
       { link: "/blog-details", title: "Blog Details" },
       { link: "/blog-details-2", title: "Blog Details 02" },
     ],
-  },
+  },*/
   {
     id: 6,
-    title: "Contact",
-    link: "/contact",
+    title: "Contactar",
+    link: "/#contact",
     has_dropdown: false,
   },
 ];

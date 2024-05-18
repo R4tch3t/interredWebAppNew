@@ -5091,6 +5091,17 @@
     max-width: 75%;
   }
 }
+.imageFull{
+  position: absolute;
+  bottom: 20px;
+  border-radius: 10px
+}
+
+@media (max-width: 767px) {
+  .imageMidle{
+
+  }
+}
 .tp-hero-2__thumb-wrap {
   margin-top: -225px;
   margin-left: -130px;

@@ -79,25 +79,25 @@ const Offcanvas = ({ showCanvas, setShowCanvas }: any) => {
 
               <div className="tpoffcanvas__right-info">
                 <div className="tpoffcanvas__tel">
-                  <a href="tel:61404093954">+61404093 954</a>
+                  <a href="tel:7566882095">+52 756 688 2095</a>
                 </div>
                 <div className="tpoffcanvas__mail">
-                  <a href="mailto:hellocontact@diego.com">
-                    hello contact@diego.com</a>
+                  <a href="mailto:interredtelecom@gmail.com">
+                  interredtelecom@gmail.com</a>
                 </div>
                 <div className="tpoffcanvas__text">
-                  <p>If in doubt. reach out.</p>
+                  <p>Tiene alguna duda o desea contratar algún servicio, no dude en mandar un correo o un mensaje al WhatsApp</p>
                 </div>
               </div>
 
-              <div className="tpoffcanvas__social-link">
+              {/*<div className="tpoffcanvas__social-link">
                 <ul>
                   <li><a href="https://www.dribbble.com" target="_blank">Dribbble</a></li>
                   <li><a href="https://www.instagram.com" target="_blank">Instagram</a></li>
                   <li><a href="https://www.linkedin.com" target="_blank">Linkedin</a></li>
                   <li><a href="https://www.behance.com" target="_blank">Behance</a></li>
                 </ul>
-              </div>
+              </div>*/}
             </div>
           </div>
 

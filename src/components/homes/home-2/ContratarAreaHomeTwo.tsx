@@ -63,19 +63,21 @@ const ContratarAreaHomeTwo = () => {
                 </div>
               </div>
               <div className="row align-items-center z-index-5">
-                <div className="col-xl-3 col-lg-4 col-md-2">
+                <div className="col-xl-3 col-lg-4 col-md-4">
                   <div className="tp-hero-2__exp-thumb-wrap p-relative text-end">
-                    <div className="tp-hero-2__exp-thumb-bg">
+                    <div className="tp-hero-2__exp-thumb-bg ">
                       <Image src={about_img_1} alt="image-here" />
                     </div>
-                    <div className="tp-hero-2__exp-thumb-text">
+                    <div style={{width: '100%', height: 400, position: 'absolute', justifyContent: 'center', top: 0}}>
+                    <div className="tp-hero-2__exp-thumb-text" style={{position: 'relative'}} >
                       <span>{experienc_year}</span>
-                      <p>{experienc_text}</p>
+                      <p style={{ textAlign: 'center'}} >{experienc_text}</p>
+                    </div>
                     </div>
                   </div>
                 </div>
                 
-                <div className="col-xl-1 col-lg-1 col-md-1">
+                <div className="col-xl-1 centerOffers">
                   <Link href={'https://w.app/MktXmn'} target='_blank'>
                     <div className='card-prices'  style={{width: 300, height: 200,paddingTop: 15, backgroundColor: '#9D0870', borderRadius: 10, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}}>
                       
@@ -130,7 +132,7 @@ const ContratarAreaHomeTwo = () => {
                   </div>*/}
                 </div>
 
-                <div className="col-xl-1 col-lg-1 col-md-1" style={{position: 'relative',left: 220, bottom: 20}}>
+                <div className="col-xl-1 offeredDesktop60 centerOffers" >
                   <div className='card-prices' style={{width: 300, height: 200,paddingTop: 15, backgroundColor: '#06C894', borderRadius: 10, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}}>
                     
                     <p style={{textAlign: 'center', color: 'white', fontSize: 18}} >Navega con</p>
@@ -158,7 +160,7 @@ const ContratarAreaHomeTwo = () => {
                   </div>
                 </div>
 
-                <div className="col-xl-1 col-lg-1 col-md-1" style={{position: 'relative',left: 440}}>
+                <div className="col-xl-1 offeredDesktop100 centerOffers">
                   <div className='card-prices' style={{width: 300, height: 200,paddingTop: 15, backgroundColor: '#C90614', borderRadius: 10, borderBottomLeftRadius: 0, borderBottomRightRadius: 0}}>
                     
                     <p style={{textAlign: 'center', color: 'white', fontSize: 18}} >Navega con</p>
